@@ -1,7 +1,7 @@
 import React from 'react'
 import './Team.css'
 import MemberImg1 from '../../assets/Member1.jpg'
-import MemberImg2 from '../../assets/Member2.Webp'
+import MemberImg2 from '../../assets/Member7.jpg'
 import MemberImg3 from '../../assets/Member3.jpg'
 import MemberImg4 from '../../assets/Member4.jpg'
 import MemberImg5 from '../../assets/Member5.jpg'
