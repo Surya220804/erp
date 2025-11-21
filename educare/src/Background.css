@@ -1,0 +1,49 @@
+ .background-container {
+      position: relative;
+      min-height: 100vh;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .gray-shape {
+      position: absolute;
+      background-color: #f0f0f0;
+      border-radius: 50px;
+      z-index: 0;
+    }
+    .shape1 {
+      width: 400px;
+      height: 250px;
+      top: -20px;
+      left: -30px;
+      transform: rotate(-20deg);
+    }
+
+    .shape2 {
+      width: 500px;
+      height: 300px;
+      top: -100px;
+      right: -100px;
+      transform: rotate(15deg);
+    }
+
+    .shape3 {
+      width: 400px;
+      height: 250px;
+      bottom: -100px;
+      left: -80px;
+      transform: rotate(-10deg);
+    }
+
+    .shape4 {
+      width: 500px;
+      height: 300px;
+      bottom: -50px;
+      right: -50px;
+      transform: rotate(25deg);
+    }
+
+    .contents {
+      position: relative;
+      z-index: 1;
+    }

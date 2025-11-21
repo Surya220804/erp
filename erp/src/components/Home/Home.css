@@ -1,0 +1,26 @@
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+.home-grid-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+.home-btns{
+    display: flex;
+    gap: 2rem;
+}
+@media screen and (max-width:800px) {
+    .home-grid{
+        grid-template-columns: 1fr;
+    }
+    .home-grid-items:first-child{
+        order: 2;
+    }
+    .home-grid-items:last-child{
+        order: 1;
+    }
+}
